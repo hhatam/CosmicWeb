@@ -1,2 +1,55 @@
 # CosmicWeb
-Pipeline for reconstructing COSMOS-Web large-scale structure using weighted KDE, producing per-slice density maps, per-object overdensities, cosmic-web evolution visualizations, and an interactive AR exploration tool.
+
+CosmicWeb is a pipeline for reconstructing the COSMOS-Web large-scale structure using weighted kernel density estimation (KDE). The workflow produces per-slice density maps, per-galaxy overdensities, and files that can be used for visualization and analysis. For a full detail of the procedure, you can read Hatamnia et al. 2025.
+
+
+![Cosmic Web Visualization](assets/cosmos_web_pizza.png)
+
+
+---
+
+## Pipeline
+
+### 1. Galaxy Weight Estimation
+Photometric-redshifts are used to compute statistical weights for each galaxy.  
+**File:** `1-Weight_Estimations.ipynb`
+
+### 2. Bandwidth Estimation
+Smoothing bandwidths are derived for each redshift slice.  
+**File:** `2-Bandwidth.ipynb`
+
+### 3. Density Map Construction
+Weighted KDE density maps are generated for all slices across the COSMOS-Web field.  
+**File:** `3-Density_Construction.py`
+
+### 4. Per-Galaxy Density Extraction
+Each galaxy’s overdensity is computed.  
+**File:** `4-Galaxy_Density.ipynb`
+
+### 5. Using the Generated Products
+Instructions and examples showing how to load density maps and visualize them.  
+**File:** `5-Plotting_Slices.ipynb`
+
+---
+
+## Citing This Work
+
+If you use any part of this pipeline, please cite:
+
+- Hatamnia et al. 2025  
+- Taamoli et al. 2024  
+- Chartab et al. 2020  
+- Darvish et al. 2015
+
+A BibTeX block will be added once the main paper is released.
+
+---
+
+## AR Demonstration (External Project)
+
+An augmented-reality visualization of COSMOS-Web has been developed in Unity.  
+The AR project is **not part of the code in this repository**, but a demonstration video will be provided here once uploaded.
+
+
+```markdown
+<video src="assets/ar_demo.mp4" width="600" controls></video>
