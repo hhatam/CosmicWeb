@@ -3,7 +3,7 @@
 CosmicWeb is a pipeline for reconstructing the COSMOS-Web large-scale structure using weighted kernel density estimation (KDE). The workflow produces per-slice density maps, per-galaxy overdensities, and files that can be used for visualization and analysis. For a full detail of the procedure, you can read Hatamnia et al. 2025.
 
 
-![Cosmic Web Visualization](assets/cosmos_web_pizza.png)
+![Cosmic Web Visualization](assets/cosmos_web_slice.png)
 
 
 ---
