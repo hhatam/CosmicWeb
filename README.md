@@ -5,7 +5,12 @@ CosmicWeb is a pipeline for reconstructing the COSMOS-Web large-scale structure 
 
 ![Cosmic Web Visualization](Assets/cosmos_web_slice.png)
 
+---
 
+## Data Release
+
+All reconstructed density maps and per-galaxy overdensity catalogs will soon be public.
+Links will be added here when available.
 ---
 
 ## Pipeline
@@ -30,13 +35,6 @@ Each galaxy’s overdensity is computed.
 Instructions and examples showing how to load density maps and visualize them.  
 **File:** `5-Plotting_Slices.ipynb`
 
-
----
-
-## Data Release
-
-All reconstructed density maps and per-galaxy overdensity catalogs will soon be public.
-Links will be added here when available.
 
 ---
 
