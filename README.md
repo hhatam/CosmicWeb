@@ -56,6 +56,8 @@ A BibTeX block will be added once the main paper is released.
 An augmented-reality visualization of COSMOS-Web has been developed in Unity.  
 The AR project is **not part of the code in this repository**, but a demonstration video will be provided here once uploaded.
 
+<video src="https://raw.githubusercontent.com/hhatam/CosmicWeb/main/Assets/AR_LSS_COSMOS_Web.mp4"
+       width="600" controls>
+</video>
 
-```markdown
-<video src="assets/ar_demo.mp4" width="600" controls></video>
+
