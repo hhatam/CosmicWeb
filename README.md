@@ -51,7 +51,7 @@ A BibTeX block will be added once the main paper is released.
 
 ---
 
-## AR Demonstration (External Project)
+## AR Demonstration
 
 An augmented-reality visualization of COSMOS-Web has been developed in Unity.
 
