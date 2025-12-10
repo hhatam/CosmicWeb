@@ -42,12 +42,10 @@ Instructions and examples showing how to load density maps and visualize them.
 
 If you use any part of this pipeline, please cite:
 
-- Hatamnia et al. 2025  
-- Taamoli et al. 2024  
-- Chartab et al. 2020  
-- Darvish et al. 2015
-
-A BibTeX block will be added once the main paper is released.
+- Hatamnia et al. 2025 [(ADS)](https://ui.adsabs.harvard.edu/abs/2025arXiv251110727H/abstract)  
+- Taamoli et al. 2024 [(ADS)](https://ui.adsabs.harvard.edu/abs/2024ApJ...966...18T/abstract)  
+- Chartab et al. 2020 [(ADS)](https://ui.adsabs.harvard.edu/abs/2020ApJ...890....7C/abstract)  
+- Darvish et al. 2015 [(ADS)](https://ui.adsabs.harvard.edu/abs/2015ApJ...805..121D/abstract)
 
 ---
 
