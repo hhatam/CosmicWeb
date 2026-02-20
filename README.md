@@ -9,8 +9,13 @@ CosmicWeb is a pipeline for reconstructing the COSMOS-Web large-scale structure 
 
 ## Data Release
 
-All reconstructed density maps and per-galaxy overdensity catalogs will soon be public.
-Links will be added here when available.
+The reconstructed density maps and per-galaxy overdensity catalogs are now publicly available via the official COSMOS-Web data release portal:
+
+https://cosmos2025.iap.fr/lss.html
+
+A Jupyter notebook demonstrating how to load and use the released catalog is provided in:  
+`Codes/6-Process_Available_Data.ipynb`
+
 ---
 
 ## Pipeline
@@ -34,6 +39,10 @@ Each galaxy’s overdensity is computed.
 ### 5. Using the Generated Products
 Instructions and examples showing how to load density maps and visualize them.  
 **File:** `5-Plotting_Slices.ipynb`
+
+### 6. Using the Public Catalog
+Demonstrates how to load and work with the publicly released COSMOS-Web LSS catalog.  
+**File:** `Codes/6-Process_Available_Data.ipynb`
 
 
 ---
